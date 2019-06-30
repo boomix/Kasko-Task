@@ -1,0 +1,9 @@
+<div>
+    <label for="input">Input</label>
+    <input type="text" id="input" class="form-control" id="inputField" autocomplete="off" aria-describedby="inputhelp"
+        (input)="onInput($event.target.value)">
+    <small id="inputhelp" class="form-text text-danger">
+        {{ error }}
+    </small>
+
+</div>
